@@ -4,7 +4,7 @@ DECLARE
          ORDER BY sal DESC;   -- start with highest paid employee
    my_ename VARCHAR2(10);
    my_empno NUMBER(5,0);
-   my_sal   NUMBER(7,2);
+   my_sal   NUMBER(7,2);  
 BEGIN
    OPEN c1;
    FOR i IN 1..3 LOOP
